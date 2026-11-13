@@ -1,0 +1,10 @@
+# Especificación de RobotMinisumoBTRC
+nombre: RobotMinisumoBTRC
+competencias: []
+# Cada entrada: {id: <carpeta en reglamentos/>, categoria: <clave en categorias del reglamento>}
+# p.ej.  - {id: XRobo7s-2026, categoria: minisumo}
+variante_activa: null   # nombre de la variante; el STL esperado es build/<variante_activa>.stl
+masas:
+  medida_g: null        # balanza (manda sobre la estimada)
+  estimada_g: null      # suma de componentes/CAD
+  fuente: null

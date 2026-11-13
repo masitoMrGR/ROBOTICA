@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "openscad": {
+      "command": "C:\\Users\\mgian\\.local\\bin\\openscad-mcp.exe",
+      "args": [],
+      "env": {
+        "OPENSCAD_PATH": "C:\\Users\\mgian\\AppData\\Local\\Programs\\OpenSCAD\\openscad.com",
+        "MCP_ALLOWED_PATHS": "D:\\DiscoE\\ROBOTICA"
+      }
+    },
+    "freecad": {
+      "command": "C:\\Users\\mgian\\.local\\bin\\freecad-mcp.exe",
+      "args": []
+    },
+    "kicad": {
+      "command": "C:\\Users\\mgian\\.local\\bin\\kicad-mcp-pro.exe",
+      "args": [
+        "--transport",
+        "stdio"
+      ],
+      "env": {
+        "KICAD_MCP_KICAD_CLI": "C:\\Users\\mgian\\AppData\\Local\\Programs\\KiCad\\10.0\\bin\\kicad-cli.exe",
+        "KICAD_MCP_WORKSPACE_ROOT": "D:\\DiscoE\\ROBOTICA"
+      }
+    },
+    "blender": {
+      "command": "C:\\Users\\mgian\\.local\\bin\\mcp-for-blender.exe",
+      "args": [],
+      "env": {
+        "DISABLE_TELEMETRY": "true",
+        "BLENDER_MCP_SAFE_MODE": "1"
+      }
+    }
+  }
+}

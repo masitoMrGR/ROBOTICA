@@ -1,0 +1,17 @@
+# Reglamento de XRobo7s-2026
+# estado: pendiente  -> todavía no se extrajo del PDF oficial; check_reglamento.py NO da nada por cumplido.
+# estado: verificado -> límites copiados del PDF y revisados por el usuario.
+# En un reglamento verificado, un límite en null significa "el reglamento no lo limita".
+# Cada límite lleva su fuente: archivo PDF de esta carpeta + página/sección.
+competencia: XRobo7s-2026
+estado: pendiente
+pdf: null              # p.ej. reglamento.pdf (en esta carpeta)
+fecha_revision: null   # AAAA-MM-DD
+categorias: {}
+# Forma de cada categoría (copiar y llenar SOLO con datos del PDF):
+#   minisumo:
+#     largo_max_mm: {valor: null, fuente: null}
+#     ancho_max_mm: {valor: null, fuente: null}
+#     alto_max_mm:  {valor: null, fuente: null}
+#     masa_max_g:   {valor: null, fuente: null}
+#     notas: []

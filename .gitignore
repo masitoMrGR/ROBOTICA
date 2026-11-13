@@ -1,0 +1,12 @@
+.venv/
+.venv-cadquery/
+build/
+__pycache__/
+.pytest_cache/
+*.FCBak
+*-backups/
+.pio/
+fp-info-cache
+_autosave-*
+*.lck
+.claude/settings.local.json

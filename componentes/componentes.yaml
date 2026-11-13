@@ -1,0 +1,23 @@
+# Catálogo compartido de componentes (motores, ruedas, baterías, sensores, drivers...).
+# Cada valor numérico lleva su fuente: datasheet (archivo + página), medición con calibre (fecha) o "estimado".
+# Unidades: mm, g, V, A, N·mm, rpm.
+componentes: []
+# Forma de cada componente:
+# - id: motor_n20_300rpm          # identificador único, se usa desde robot.yaml
+#   nombre: null
+#   tipo: null                    # motor | rueda | bateria | sensor | driver | mcu | otro
+#   datasheet: null               # ruta en componentes/datasheets/
+#   modelo_scad: null             # ruta en componentes/scad/
+#   huella_kicad: null            # ruta en componentes/kicad/
+#   medidas:
+#     largo_mm: {valor: null, fuente: null}
+#     ancho_mm: {valor: null, fuente: null}
+#     alto_mm:  {valor: null, fuente: null}
+#     masa_g:   {valor: null, fuente: null}
+#   electricos:
+#     tension_nominal_v:  {valor: null, fuente: null}
+#     corriente_sin_carga_a: {valor: null, fuente: null}
+#     corriente_bloqueo_a:   {valor: null, fuente: null}
+#     torque_bloqueo_nmm:    {valor: null, fuente: null}
+#     velocidad_sin_carga_rpm: {valor: null, fuente: null}
+#     capacidad_mah:      {valor: null, fuente: null}
